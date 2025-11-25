@@ -161,6 +161,7 @@ body {
     max-width: 450px;
     background-color: var(--purple);
     font-family: Inter;
+    margin: 0 auto;
 }
 
 header {
@@ -246,8 +247,6 @@ nav a {
 
 #services {
     background-color: var(--purple);
-    padding-top: 20px;
-    padding-bottom: 20px;
 }
 
 #services h2 {
@@ -266,8 +265,9 @@ nav a {
 }
 
 .service {
-    display: flexbox;
-    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     gap: 16px;
     background-color: var(--white);
     border-radius: 18px;
@@ -286,6 +286,7 @@ nav a {
     font-size: 1rem;
     line-height: 1.6;
     color: var(--dark-grey);
+    text-align: left;
 }
 
 #why-choose-us {
@@ -384,7 +385,8 @@ nav a {
 
 footer, a, p{
     color: var(--white);
-    display: flexbox;
+    display: flex;
+    flex-direction: column;
 text-align: center;    
 padding: 10px 0px;
 }
